@@ -60,6 +60,19 @@
 
 完整步骤见 [INSTALL.md](INSTALL.md)。下表说明常见环境的加载位置和调用方式；不同版本的产品可能调整目录或命令，应以各产品当期文档为准。
 
+先克隆技能包：
+
+```bash
+git clone https://github.com/Zimzheng/professional-research-html.git
+```
+
+例如，安装到本机 Codex 个人技能目录：
+
+```bash
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+git clone https://github.com/Zimzheng/professional-research-html.git "${CODEX_HOME:-$HOME/.codex}/skills/professional-research-html"
+```
+
 | 环境 | 推荐安装位置 | 调用方式 |
 |---|---|---|
 | Codex | `$CODEX_HOME/skills/professional-research-html` | 在提示中引用 `$professional-research-html`，或直接描述任务。 |
@@ -67,12 +80,6 @@
 | Qoder CLI | `~/.qoder/skills/professional-research-html`，或项目内 `.qoder/skills/professional-research-html` | 安装后执行 `/skills reload`，再按名称或自然语言调用。 |
 | QoderWork | `~/.qoderwork/skills/professional-research-html` | 通过其 Skills 管理界面或本地目录加载后调用。 |
 | WorkBuddy | 导入一个根目录含 `SKILL.md` 的 ZIP 包 | 在 Skills 管理界面导入本仓库生成的 ZIP 包。 |
-
-可先克隆仓库，再将整个目录复制到对应技能目录：
-
-```bash
-git clone <repository-url>
-```
 
 对于需要 ZIP 导入的环境，可在仓库根目录执行：
 

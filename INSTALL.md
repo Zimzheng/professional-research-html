@@ -16,23 +16,46 @@ professional-research-html/
 
 ## 安装来源
 
+克隆本技能仓库：
+
 ```bash
-git clone <repository-url>
+git clone https://github.com/Zimzheng/professional-research-html.git
 ```
 
-将克隆所得的 `professional-research-html` 目录完整复制到对应产品的 Skills 目录。对受版本影响的目录和入口，应以产品当前文档为准。
+克隆后目录名为 `professional-research-html`。将该目录完整复制到对应产品的 Skills 目录。对受版本影响的目录和入口，应以产品当前文档为准。
 
 ## 各环境接入
 
 ### Codex
 
-将目录放入 `$CODEX_HOME/skills/professional-research-html`（通常为 `~/.codex/skills/professional-research-html`）。可在对话中写 `$professional-research-html`，或直接描述要生成的研究报告。
+直接安装到个人技能目录：
+
+```bash
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+git clone https://github.com/Zimzheng/professional-research-html.git "${CODEX_HOME:-$HOME/.codex}/skills/professional-research-html"
+```
+
+安装后可在对话中写 `$professional-research-html`，或直接描述要生成的研究报告。
 
 ### Claude Code 与 Claude
 
-Claude Skills 将带 YAML 前言的 `SKILL.md` 作为技能入口，并可同时携带参考文件和脚本。将该目录复制到当前 Claude 环境配置的 Skills 目录，随后以技能名称或自然语言研究任务调用。具体的安装入口会随 Claude 产品形态而变化，请参阅 [Claude Skills 基础文档](https://claude.com/resources/guides/the-complete-guide-to-building-skills-for-claude/fundamentals)。
+安装到 Claude Code 的用户级 Skills 目录：
+
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/Zimzheng/professional-research-html.git ~/.claude/skills/professional-research-html
+```
+
+Claude Skills 将带 YAML 前言的 `SKILL.md` 作为技能入口，并可同时携带参考文件和脚本。安装后以技能名称或自然语言研究任务调用。具体入口会随 Claude 产品形态而变化，请参阅 [Claude Skills 基础文档](https://claude.com/resources/guides/the-complete-guide-to-building-skills-for-claude/fundamentals)。
 
 ### Qoder CLI
+
+安装到用户级目录：
+
+```bash
+mkdir -p ~/.qoder/skills
+git clone https://github.com/Zimzheng/professional-research-html.git ~/.qoder/skills/professional-research-html
+```
 
 可选位置：
 
@@ -45,7 +68,14 @@ Claude Skills 将带 YAML 前言的 `SKILL.md` 作为技能入口，并可同时
 
 ### QoderWork
 
-将目录放入：
+安装到用户级目录：
+
+```bash
+mkdir -p ~/.qoderwork/skills
+git clone https://github.com/Zimzheng/professional-research-html.git ~/.qoderwork/skills/professional-research-html
+```
+
+对应目录为：
 
 ```text
 ~/.qoderwork/skills/professional-research-html/
