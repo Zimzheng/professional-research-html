@@ -1,0 +1,4 @@
+interface:
+  display_name: "专业研究 HTML"
+  short_description: "将研究内容制成可打印、可核验的期刊风格 HTML 报告"
+  default_prompt: "Use $professional-research-html to turn my research topic and sources into a Chinese journal-style HTML report."
