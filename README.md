@@ -11,14 +11,24 @@
 下面的演示报告是一个可直接阅读与点击交互的独立 HTML 文件。它以虚构的企业客服知识库场景展示本技能的完整输出，包括论文结构、表格、机制图、术语跳转、编号引文、参考文献、窄屏适配和 A4 打印样式。
 
 <p align="center">
-  <a href="https://zimzheng.github.io/professional-research-html/examples/customer-service-agent-demo.html"><strong>在线阅读完整演示报告 →</strong></a>
-  &nbsp;·&nbsp;
-  <a href="examples/customer-service-agent-demo.html">在仓库中查看 HTML 源文件</a>
-  &nbsp;·&nbsp;
-  <a href="examples/README.md">查看示例与隐私说明</a>
+  <a href="https://zimzheng.github.io/professional-research-html/examples/customer-service-agent-demo.html">
+    <img src="assets/customer-service-agent-full-preview.svg" alt="虚构客服知识库 AI 助手研究报告的完整长图预览；点击后打开可交互 HTML" width="860">
+  </a>
 </p>
 
-演示中的企业、资料、指标和引文均为虚构内容，仅用于说明交付形式，不对应真实客户、项目或研究结论。这个呈现方式沿用开源技能项目的做法：README 提供一个明确入口，独立示例页面承载完整、可复现的输出体验。
+<p align="center"><a href="https://zimzheng.github.io/professional-research-html/examples/customer-service-agent-demo.html"><strong>点击图片，在线阅读完整演示报告 →</strong></a> · <a href="examples/customer-service-agent-demo.html">在仓库中查看 HTML 源文件</a> · <a href="examples/README.md">查看示例与隐私说明</a></p>
+
+### 功能说明图
+
+<p align="center"><img src="assets/customer-service-agent-feature-map.svg" alt="论文结构、术语引文交互与多端打印能力的说明图" width="860"></p>
+
+| 功能 | 完整样稿中的体验 |
+|---|---|
+| 论文结构与信息层级 | 摘要、关键词、目录、章节、表格、机制图、术语表和参考文献形成完整报告。 |
+| 术语与证据追溯 | 点击正文中的虚线术语可跳转到释义；点击 `[1]` 可定位至对应参考文献。 |
+| 多端与打印阅读 | 缩小浏览器窗口验证窄屏布局；使用打印预览查看 A4 样式。 |
+
+演示中的企业、资料、指标和引文均为虚构内容，仅用于说明交付形式，不对应真实客户、项目或研究结论。这个呈现方式沿用开源技能项目的做法：README 用完整长图提供第一眼预览，独立页面承载完整、可复现的交互体验。
 
 ## 能力
 
@@ -103,6 +113,9 @@ python3 scripts/validate_html_report.py /path/to/report.html
 ├── README.md
 ├── INSTALL.md
 ├── agents/openai.yaml               # Codex 界面元数据
+├── assets/
+│   ├── customer-service-agent-full-preview.svg  # README 完整样稿长图
+│   └── customer-service-agent-feature-map.svg   # README 功能说明图
 ├── examples/
 │   ├── README.md                     # 示例范围与隐私说明
 │   └── customer-service-agent-demo.html    # 可直接打开的虚构演示报告

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1640" viewBox="0 0 1200 1640" role="img" aria-labelledby="title desc">
+  <title id="title">虚构客服知识库 AI 助手研究报告完整预览</title>
+  <desc id="desc">一份期刊风格研究报告从标题、摘要、目录到分析图、术语表和参考文献的完整长图预览。</desc>
+  <rect width="1200" height="1640" fill="#e8edef"/>
+  <rect x="125" y="38" width="950" height="1560" fill="#fff" stroke="#d6e0e3"/>
+  <g font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="180" y="82" width="840" height="5" fill="#174c67"/>
+    <text x="180" y="118" font-size="13" font-weight="700" letter-spacing="2" fill="#9a743b">DEMONSTRATION REPORT · FICTIONAL CASE</text>
+    <text x="180" y="174" font-family="Georgia, Songti SC, STSong, serif" font-size="33" font-weight="700" fill="#1b2633">面向客服知识库的 AI 助手：</text>
+    <text x="180" y="219" font-family="Georgia, Songti SC, STSong, serif" font-size="33" font-weight="700" fill="#1b2633">访问治理设计示例</text>
+    <text x="180" y="251" font-size="14" fill="#617184">虚构企业场景 · 术语跳转 · 编号引文 · 独立 HTML / A4 打印</text>
+    <rect x="180" y="281" width="840" height="44" fill="#f8f6f1"/><text x="201" y="309" font-size="13" fill="#6b532b">演示声明：企业、资料、指标和引文均为虚构内容，仅用于展示输出结构与阅读体验。</text>
+    <rect x="180" y="353" width="840" height="128" fill="#f2f6f7"/><text x="204" y="387" font-size="15" font-weight="700" fill="#174c67">摘要</text><text x="204" y="418" font-size="14" fill="#384957">以虚构客服知识库为例，展示报告如何呈现调用资格、知识范围、</text><text x="204" y="442" font-size="14" fill="#384957">工具动作和审计记录，并区分事实、分析与设计建议。</text>
+    <text x="180" y="523" font-size="14" fill="#384957">关键词：访问边界　最小权限　审计链路　产品治理</text>
+    <rect x="180" y="551" width="840" height="52" fill="#fff" stroke="#cbd5d9"/><text x="201" y="583" font-size="13" fill="#174c67">01 研究背景　　02 分析框架　　03 设计示例　　术语释义　　参考文献</text>
+    <text x="180" y="666" font-family="Georgia, Songti SC, STSong, serif" font-size="24" font-weight="700" fill="#1b2633">01　研究背景</text><line x1="180" y1="682" x2="1020" y2="682" stroke="#cbd5d9"/>
+    <text x="180" y="718" font-size="14" fill="#384957">在本虚构场景中，客服人员通过助手查询经过审核的服务政策与产品说明。</text><text x="180" y="744" font-size="14" fill="#384957">报告将“谁能调用、能检索什么、如何复核、如何追溯”拆为独立配置问题。 [1]</text>
+    <text x="180" y="803" font-family="Georgia, Songti SC, STSong, serif" font-size="24" font-weight="700" fill="#1b2633">02　分析框架</text><line x1="180" y1="819" x2="1020" y2="819" stroke="#cbd5d9"/>
+    <rect x="180" y="845" width="840" height="34" fill="#eaf0f2"/><text x="202" y="868" font-size="13" font-weight="700" fill="#173c52">配置对象</text><text x="466" y="868" font-size="13" font-weight="700" fill="#173c52">需要回答的问题</text><text x="762" y="868" font-size="13" font-weight="700" fill="#173c52">设计处理</text>
+    <g font-size="13" fill="#384957"><rect x="180" y="879" width="840" height="35" fill="#fff" stroke="#d9e1e4"/><text x="202" y="902">调用资格</text><text x="466" y="902">谁能提出任务？</text><text x="762" y="902">岗位与场景限制</text><rect x="180" y="914" width="840" height="35" fill="#f8fafb" stroke="#d9e1e4"/><text x="202" y="937">知识范围</text><text x="466" y="937">可检索哪些内容？</text><text x="762" y="937">审核后的资料版本</text><rect x="180" y="949" width="840" height="35" fill="#fff" stroke="#d9e1e4"/><text x="202" y="972">审计记录</text><text x="466" y="972">如何回溯输出？</text><text x="762" y="972">请求、资料与确认结果</text></g>
+    <text x="180" y="1041" font-family="Georgia, Songti SC, STSong, serif" font-size="24" font-weight="700" fill="#1b2633">03　设计示例：从请求到可追溯答复</text><line x1="180" y1="1057" x2="1020" y2="1057" stroke="#cbd5d9"/>
+    <rect x="180" y="1083" width="840" height="126" fill="#fafcfc" stroke="#cbd5d9"/>
+    <g text-anchor="middle"><g fill="#fff" stroke="#aebfc7"><rect x="203" y="1110" width="126" height="63"/><rect x="380" y="1110" width="126" height="63"/><rect x="557" y="1110" width="126" height="63"/><rect x="734" y="1110" width="126" height="63"/></g><g font-size="13" font-weight="700" fill="#173c52"><text x="266" y="1143">客服人员</text><text x="443" y="1143">受控工作区</text><text x="620" y="1143">智能助手</text><text x="797" y="1143">审计记录</text></g><g font-size="24" fill="#a17838"><text x="354" y="1150">→</text><text x="531" y="1150">→</text><text x="708" y="1150">→</text></g></g>
+    <text x="180" y="1252" font-size="14" fill="#384957">最小权限：只授予完成当前任务所需的最小资源和动作范围。点击术语可跳转至释义。</text>
+    <text x="180" y="1315" font-family="Georgia, Songti SC, STSong, serif" font-size="24" font-weight="700" fill="#1b2633">术语释义</text><line x1="180" y1="1331" x2="1020" y2="1331" stroke="#cbd5d9"/>
+    <rect x="180" y="1358" width="840" height="64" fill="#f2f6f7"/><text x="204" y="1386" font-size="14" font-weight="700" fill="#173c52">最小权限</text><text x="401" y="1386" font-size="13" fill="#384957">仅授予完成任务所需的最低资源和动作权限。</text><text x="204" y="1411" font-size="14" font-weight="700" fill="#173c52">审计链路</text><text x="401" y="1411" font-size="13" fill="#384957">关联请求、处理过程、资料版本和最终输出的记录。</text>
+    <text x="180" y="1479" font-family="Georgia, Songti SC, STSong, serif" font-size="24" font-weight="700" fill="#1b2633">参考文献</text><line x1="180" y1="1495" x2="1020" y2="1495" stroke="#cbd5d9"/>
+    <text x="202" y="1528" font-size="13" fill="#384957">[1] 演示资料一. 虚构的客服知识库需求摘要[Z]. 仅用于说明编号引文格式。</text>
+    <text x="180" y="1564" font-size="12" fill="#617184">点击本图可在线阅读完整 HTML，并体验术语锚点、引文锚点、窄屏与 A4 打印样式。</text>
+  </g>
+</svg>
