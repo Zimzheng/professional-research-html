@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">虚构企业客服知识库智能助手研究报告预览</title>
+  <desc id="desc">期刊风格报告页面，包含题目、摘要、授权链机制图和治理表格。</desc>
+  <rect width="1200" height="760" fill="#e8edef"/>
+  <rect x="132" y="42" width="936" height="676" rx="3" fill="#ffffff" stroke="#d6e0e3"/>
+  <rect x="178" y="83" width="844" height="5" fill="#174c67"/>
+  <text x="178" y="117" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#9a743b">DEMONSTRATION REPORT · FICTIONAL CASE</text>
+  <text x="178" y="171" font-family="Georgia, Songti SC, STSong, serif" font-size="31" font-weight="700" fill="#1b2633">面向客服知识库的 AI 助手</text>
+  <text x="178" y="214" font-family="Georgia, Songti SC, STSong, serif" font-size="31" font-weight="700" fill="#1b2633">访问治理设计示例</text>
+  <text x="178" y="247" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#617184">虚构企业场景 · 术语跳转 · 可打印的独立 HTML</text>
+  <rect x="178" y="278" width="844" height="116" fill="#f2f6f7"/>
+  <text x="201" y="309" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#174c67">摘要</text>
+  <text x="201" y="338" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#384957">以虚构客服知识库为例，展示研究报告如何呈现授权边界、</text>
+  <text x="201" y="362" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#384957">可追溯性与产品设计建议；内容仅用于版式和信息结构演示。</text>
+  <text x="178" y="441" font-family="Georgia, Songti SC, STSong, serif" font-size="22" font-weight="700" fill="#1b2633">01　授权链与配置边界</text>
+  <line x1="178" y1="458" x2="1022" y2="458" stroke="#cbd5d9"/>
+  <g font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">
+    <rect x="178" y="492" width="145" height="72" fill="#fff" stroke="#aebfc7"/><rect x="178" y="492" width="145" height="4" fill="#174c67"/>
+    <text x="250" y="528" font-size="15" font-weight="700" fill="#173c52">请求者</text><text x="250" y="550" font-size="12" fill="#617184">成员资格</text>
+    <text x="349" y="536" font-size="24" fill="#a17838">→</text>
+    <rect x="378" y="492" width="145" height="72" fill="#fff" stroke="#aebfc7"/><rect x="378" y="492" width="145" height="4" fill="#174c67"/>
+    <text x="450" y="528" font-size="15" font-weight="700" fill="#173c52">协作空间</text><text x="450" y="550" font-size="12" fill="#617184">知识范围</text>
+    <text x="549" y="536" font-size="24" fill="#a17838">→</text>
+    <rect x="578" y="492" width="145" height="72" fill="#fff" stroke="#aebfc7"/><rect x="578" y="492" width="145" height="4" fill="#174c67"/>
+    <text x="650" y="528" font-size="15" font-weight="700" fill="#173c52">智能体</text><text x="650" y="550" font-size="12" fill="#617184">工具策略</text>
+    <text x="749" y="536" font-size="24" fill="#a17838">→</text>
+    <rect x="778" y="492" width="145" height="72" fill="#fff" stroke="#aebfc7"/><rect x="778" y="492" width="145" height="4" fill="#174c67"/>
+    <text x="850" y="528" font-size="15" font-weight="700" fill="#173c52">资源与审计</text><text x="850" y="550" font-size="12" fill="#617184">读取与记录</text>
+  </g>
+  <text x="178" y="622" font-family="Georgia, Songti SC, STSong, serif" font-size="22" font-weight="700" fill="#1b2633">02　治理要点</text>
+  <line x1="178" y1="638" x2="1022" y2="638" stroke="#cbd5d9"/>
+  <rect x="178" y="657" width="844" height="29" fill="#eaf0f2"/>
+  <text x="201" y="677" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#173c52">调用资格</text>
+  <text x="433" y="677" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#173c52">资源范围</text>
+  <text x="725" y="677" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#173c52">审计记录</text>
+</svg>

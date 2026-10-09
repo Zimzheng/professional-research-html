@@ -9,6 +9,6 @@ output_dir=$(dirname -- "$output_path")
 
 mkdir -p "$output_dir"
 git -C "$skill_root" archive --format=zip --output="$output_path" HEAD -- \
-  SKILL.md README.md INSTALL.md references agents scripts
+  SKILL.md README.md INSTALL.md references agents scripts examples assets
 
 printf 'Created %s\n' "$output_path"

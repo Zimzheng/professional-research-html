@@ -6,6 +6,20 @@
 
 技能的可移植核心是根目录的 `SKILL.md` 与 `references/`。其目录结构遵循 [Agent Skills](https://agentskills.io) 约定，可供支持该约定的 Agent 加载；`agents/openai.yaml` 只为 Codex 提供界面展示信息，其他环境可忽略。
 
+## 效果预览
+
+下方为技能生成的完整示例。它使用虚构的企业客服知识库场景，仅用于展示论文结构、表格、机制图、术语跳转、编号引文和打印版式；其中的机构、资料和数字均不对应真实项目或研究结论。
+
+<p align="center">
+  <a href="examples/customer-service-agent-demo.html">
+    <img src="assets/customer-service-agent-preview.svg" alt="虚构企业客服知识库智能助手研究报告的版式预览" width="860">
+  </a>
+</p>
+
+<p align="center"><a href="examples/customer-service-agent-demo.html">打开完整演示报告</a> · <a href="examples/README.md">查看示例说明</a></p>
+
+这个呈现方式借鉴了开源技能仓库中“README 负责快速理解、独立示例文件负责完整复现”的做法：预览图降低首次阅读成本，完整 HTML 则让读者核对交付质量而无需安装或运行 Agent。
+
 ## 能力
 
 - 核验资料来源、链接、发布日期和产品状态，优先采用官方文档、原始研究与一手公告。
@@ -89,6 +103,11 @@ python3 scripts/validate_html_report.py /path/to/report.html
 ├── README.md
 ├── INSTALL.md
 ├── agents/openai.yaml               # Codex 界面元数据
+├── assets/
+│   └── customer-service-agent-preview.svg  # README 示例预览图
+├── examples/
+│   ├── README.md                     # 示例范围与隐私说明
+│   └── customer-service-agent-demo.html    # 可直接打开的虚构演示报告
 ├── scripts/
 │   ├── package-skill.sh              # 生成根含 SKILL.md 的导入 ZIP
 │   └── validate_html_report.py       # 验证 HTML 交付结构
