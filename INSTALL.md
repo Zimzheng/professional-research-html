@@ -17,7 +17,7 @@ professional-research-html/
 ## 安装来源
 
 ```bash
-git clone https://github.com/Zimzheng/professional-research-html.git
+git clone <repository-url>
 ```
 
 将克隆所得的 `professional-research-html` 目录完整复制到对应产品的 Skills 目录。对受版本影响的目录和入口，应以产品当前文档为准。

@@ -47,7 +47,7 @@
 可先克隆仓库，再将整个目录复制到对应技能目录：
 
 ```bash
-git clone https://github.com/Zimzheng/professional-research-html.git
+git clone <repository-url>
 ```
 
 对于需要 ZIP 导入的环境，可在仓库根目录执行：
