@@ -8,15 +8,39 @@
 
 ## 效果预览
 
-下方为技能生成的完整示例。它使用虚构的企业客服知识库场景，仅用于展示论文结构、表格、机制图、术语跳转、编号引文和打印版式；其中的机构、资料和数字均不对应真实项目或研究结论。
+下方以三个关键页面展示技能生成的完整结构。它使用虚构的企业客服知识库场景，仅用于展示论文结构、表格、机制图、术语跳转、编号引文和打印版式；其中的机构、资料和数字均不对应真实项目或研究结论。
 
 <p align="center">
   <a href="examples/customer-service-agent-demo.html">
-    <img src="assets/customer-service-agent-preview.svg" alt="虚构企业客服知识库智能助手研究报告的版式预览" width="860">
+    <img src="assets/customer-service-agent-preview.svg" alt="演示报告的论文结构、摘要、目录、机制图和治理表格预览" width="860">
   </a>
 </p>
 
-<p align="center"><a href="examples/customer-service-agent-demo.html">打开完整演示报告</a> · <a href="examples/README.md">查看示例说明</a></p>
+<p align="center"><strong>01　论文结构与机制图</strong></p>
+
+<p align="center">
+  <a href="examples/customer-service-agent-demo.html#glossary">
+    <img src="assets/customer-service-agent-traceability-preview.svg" alt="演示报告的术语跳转、编号引文和参考文献追溯预览" width="860">
+  </a>
+</p>
+
+<p align="center"><strong>02　术语跳转、编号引文与参考文献</strong></p>
+
+<p align="center">
+  <a href="examples/customer-service-agent-demo.html">
+    <img src="assets/customer-service-agent-print-preview.svg" alt="演示报告的桌面阅读、窄屏适配和 A4 打印版式预览" width="860">
+  </a>
+</p>
+
+<p align="center"><strong>03　桌面阅读、窄屏适配与 A4 打印</strong></p>
+
+| 交付能力 | 预览位置 | 完整样稿中的验证方式 |
+|---|---|---|
+| 论文结构与信息层级 | 01 | 摘要、关键词、目录、章节、表格与机制图。 |
+| 术语解释与可追溯性 | 02 | 点击正文虚线术语可跳转至术语表；点击 `[1]` 可定位到参考文献。 |
+| 多端与打印阅读 | 03 | 缩小浏览器窗口查看窄屏布局；打印预览可查看 A4 规则。 |
+
+<p align="center"><a href="examples/customer-service-agent-demo.html">打开完整演示报告并体验跳转</a> · <a href="examples/README.md">查看示例说明</a></p>
 
 这个呈现方式借鉴了开源技能仓库中“README 负责快速理解、独立示例文件负责完整复现”的做法：预览图降低首次阅读成本，完整 HTML 则让读者核对交付质量而无需安装或运行 Agent。
 
@@ -104,7 +128,7 @@ python3 scripts/validate_html_report.py /path/to/report.html
 ├── INSTALL.md
 ├── agents/openai.yaml               # Codex 界面元数据
 ├── assets/
-│   └── customer-service-agent-preview.svg  # README 示例预览图
+│   └── customer-service-agent-*-preview.svg  # README 三段式示例预览图
 ├── examples/
 │   ├── README.md                     # 示例范围与隐私说明
 │   └── customer-service-agent-demo.html    # 可直接打开的虚构演示报告
